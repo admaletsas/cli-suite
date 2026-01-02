@@ -1,6 +1,6 @@
 {
   "name": "cli-suite",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A modular, extensible TypeScript library for building interactive CLI applications featuring advanced command and argument parsing, input prompts, validation, text styling, data formatting, and animated console visuals",
   "keywords": [
     "cli",
