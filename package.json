@@ -1,6 +1,6 @@
 {
   "name": "cli-suite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A modular, extensible TypeScript library for building interactive CLI applications featuring advanced command and argument parsing, input prompts, validation, text styling, data formatting, and animated console visuals",
   "keywords": [
     "cli",
@@ -33,7 +33,7 @@
   "author": "Archontis-Dimitrios Maletsas",
   "type": "commonjs",
   "main": "dist/src/index.js",
-  "types": "dist/src/types/index.d.ts",
+  "types": "dist/src/index.d.ts",
   "scripts": {
     "prepare": "husky install",
     "clean": "rimraf dist",
