@@ -1,0 +1,70 @@
+{
+  "name": "cli-suite",
+  "version": "1.0.0",
+  "description": "A modular, extensible TypeScript library for building interactive CLI applications featuring advanced command and argument parsing, input prompts, validation, text styling, data formatting, and animated console visuals",
+  "keywords": [
+    "cli",
+    "cmd",
+    "command-line",
+    "cli-tool",
+    "cli-toolkit",
+    "cli-suite",
+    "cli-library",
+    "cmd-tool",
+    "cmd-toolkit",
+    "cmd-suite",
+    "cmd-library",
+    "command-line-tool",
+    "command-line-toolkit",
+    "command-line-suite",
+    "command-line-library",
+    "command-line-interface",
+    "terminal",
+    "console",
+    "developer-tool",
+    "shell",
+    "script"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/admaletsas/cli-suite.git"
+  },
+  "license": "MIT",
+  "author": "Archontis-Dimitrios Maletsas",
+  "type": "commonjs",
+  "main": "dist/src/index.js",
+  "types": "dist/src/types/index.d.ts",
+  "scripts": {
+    "prepare": "husky install",
+    "clean": "rimraf dist",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "format": "prettier --write '{src,tests}/**/*.{ts,js,json,md}'",
+    "format:check": "prettier --check '{src,tests}/**/*.{ts,js,json,md}'",
+    "lint": "eslint '{src,tests}/**/*.{ts,js,json}'"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.10.1",
+    "@typescript-eslint/eslint-plugin": "^8.48.0",
+    "@typescript-eslint/parser": "^8.48.0",
+    "eslint": "^9.39.1",
+    "husky": "^8.0.0",
+    "jest": "^30.2.0",
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.7.1",
+    "rimraf": "^6.1.2",
+    "ts-jest": "^29.4.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "lint-staged": {
+    "*.{ts,js,json,md}": [
+      "npm run format",
+      "npm run lint",
+      "git add"
+    ]
+  }
+}

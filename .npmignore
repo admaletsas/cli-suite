@@ -1,0 +1,25 @@
+# Ignore source code and tests
+src/
+tests/
+
+# Ignore documentation
+docs/
+
+# Ignore build scripts and configs
+scripts/
+.vscode/
+.prettierrc
+*.config.js
+*.config.cjs
+*.config.mjs
+
+# Ignore local environment files
+.env
+.env.local
+
+# Ignore git files
+.git/
+.gitignore
+
+# Ignore npmignore itself (optional)
+.npmignore
