@@ -4,6 +4,7 @@
 
 [![npm version](https://img.shields.io/npm/v/cli-suite?style=flat-square)](https://www.npmjs.com/package/cli-suite)
 [![Bundle Size](https://img.shields.io/bundlejs/size/cli-suite?style=flat-square)](https://www.npmjs.com/package/cli-suite)
+[![Build](https://img.shields.io/github/actions/workflow/status/admaletsas/cli-suite/node.js.yml?style=flat-square)](https://github.com/admaletsas/cli-suite/actions/workflows/node.js.yml)
 [![Issues](https://img.shields.io/github/issues/admaletsas/cli-suite?style=flat-square)](https://github.com/admaletsas/cli-suite/issues)
 [![Downloads](https://img.shields.io/npm/dm/cli-suite?style=flat-square)](https://www.npmjs.com/package/cli-suite)
 [![License](https://img.shields.io/github/license/admaletsas/cli-suite?style=flat-square)](LICENSE)
