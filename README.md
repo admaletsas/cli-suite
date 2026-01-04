@@ -1,6 +1,6 @@
-# cli-suite
-
 ![cli-suite logo](./docs/logo.svg)
+
+<br/>
 
 [![npm version](https://img.shields.io/npm/v/cli-suite?style=flat-square)](https://www.npmjs.com/package/cli-suite)
 [![Bundle Size](https://img.shields.io/bundlejs/size/cli-suite?style=flat-square)](https://www.npmjs.com/package/cli-suite)
